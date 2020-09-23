@@ -1,0 +1,16 @@
+.ImageCard-Wrapper {
+  border-radius: 22px;
+  background: #ebebeb;
+  box-shadow:  15px 15px 30px #b0b0b0, 
+  -15px -15px 30px #ffffff;
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgb(205,215,233);
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* .ImageCard-Wrapper img {
+  width: 100%;
+  border-radius: 22px;
+} */
