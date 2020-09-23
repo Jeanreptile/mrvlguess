@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b3f13b66a3c815491d884856adbf85f",
+    "revision": "707a8c0536aed92f6b1ec13f1b89abaa",
     "url": "/mrvlguess/index.html"
   },
   {
-    "revision": "20d5968e52e857d5ce6e",
-    "url": "/mrvlguess/static/css/main.f62a7fb8.chunk.css"
+    "revision": "f78d3c48c01d0824c898",
+    "url": "/mrvlguess/static/css/main.8a072937.chunk.css"
   },
   {
     "revision": "107a7f9cf6a8956aa614",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mrvlguess/static/js/2.e6c7c859.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20d5968e52e857d5ce6e",
-    "url": "/mrvlguess/static/js/main.8b4bd6b5.chunk.js"
+    "revision": "f78d3c48c01d0824c898",
+    "url": "/mrvlguess/static/js/main.fed35e3a.chunk.js"
   },
   {
     "revision": "9fd5bcf889fd25130207",
