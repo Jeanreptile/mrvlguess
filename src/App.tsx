@@ -3,6 +3,7 @@ import './App.css';
 import ImageCard from './components/ImageCard';
 import Choices from './components/Choices';
 import { getCharacters } from './API/MarvelApi';
+import { disableBodyScroll } from 'body-scroll-lock';
 
 function App() {
   const [characterToGuess, setCharacterToGuess] = useState<{key: string, imgUrl: string}|undefined>(undefined);
@@ -12,7 +13,13 @@ function App() {
   const [didFind, setDidFind] = useState<boolean>();
 
   useEffect(() => {
-    setCharacters(getCharacters());
+    disableBodyScroll(document.body);
+  }, [])
+
+  useEffect(() => {
+    getCharacters().then(rep =>{
+      setCharacters(rep);
+    })
   }, [])
 
   var randomKey = function(obj: any): string {
